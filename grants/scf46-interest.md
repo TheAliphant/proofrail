@@ -1,3 +1,5 @@
+> **Status: Interest Form submitted via official SCF UI on 2026-09-18. Awaiting eligibility/invitation.**
+
 # SCF #46 Interest Package — ProofRail / Stellar x402 Bazaar
 
 ## Track
