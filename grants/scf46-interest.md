@@ -60,10 +60,10 @@ Audit fees themselves are not included; we will use the SCF Audit Bank path spec
 Repo: https://github.com/TheAliphant/proofrail
 Demo/spec: https://thealiphant.github.io/proofrail/
 
-## Owner-only fields before Interest Form submission
-- applicant/contact name
-- contact email
-- optional SCF referral code (not mandatory)
+## Applicant contact
+- Truls Indrearne
+- hello@offerpath.eu
+- SCF referral code: none
 
 ## Detailed requirement mapping
 See [`stellar-rfp-conformance.md`](stellar-rfp-conformance.md) for a requirement-by-requirement readiness and acceptance matrix.

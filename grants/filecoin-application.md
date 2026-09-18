@@ -4,7 +4,7 @@
 
 **Proposal Category:** Developer and data tooling / Integrations
 
-**Individual or Entity Name:** Individual applicant
+**Individual or Entity Name:** Truls Indrearne
 
 **Proposer:** TheAliphant
 
@@ -88,7 +88,7 @@ ProofRail is designed as infrastructure used by its maintainers' own autonomous-
 # Team
 
 ## Team Members
-- TheAliphant — maintainer / product and systems implementation.
+- Truls Indrearne (GitHub: TheAliphant) — maintainer / product and systems implementation.
 
 ## Team Website
 https://thealiphant.github.io/proofrail/
@@ -105,3 +105,5 @@ The existing public ProofRail core includes deterministic canonical JSON receipt
 # Additional Information
 
 ProofRail Archive is intentionally narrower than agent-memory and agent-evaluation storage projects. It addresses completed economic work: a portable relationship between task, artifact, QA, submission and settlement evidence. No Filecoin-specific grant deliverable will begin before a grant agreement is signed.
+
+**Grant contact:** Truls Indrearne — hello@offerpath.eu
