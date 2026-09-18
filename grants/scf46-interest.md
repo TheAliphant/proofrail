@@ -64,3 +64,6 @@ Demo/spec: https://thealiphant.github.io/proofrail/
 - applicant/contact name
 - contact email
 - optional SCF referral code (not mandatory)
+
+## Detailed requirement mapping
+See [`stellar-rfp-conformance.md`](stellar-rfp-conformance.md) for a requirement-by-requirement readiness and acceptance matrix.
