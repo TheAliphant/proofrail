@@ -1,0 +1,21 @@
+{
+  "version": "proofrail/0.1",
+  "job_id": "demo-001",
+  "worker": "agent:proofrail-demo",
+  "provider": "demo",
+  "buyer": "buyer:example",
+  "task_hash": "sha256:demo-task",
+  "artifact_hash": "sha256:demo-artifact",
+  "qa_status": "PASS",
+  "submission_ref": "demo:submission:001",
+  "payment": {
+    "network": "base",
+    "asset": "USDC",
+    "amount": "1.00",
+    "transaction_ref": "demo-only",
+    "verification_status": "UNVERIFIED_DEMO"
+  },
+  "metadata": {},
+  "created_at": "2026-09-18T07:44:07.319270+00:00",
+  "receipt_hash": "sha256:350c856ebd7f4d1e5dc0d04be2f1a385e762f2c34c07c89c2676bf2f13673bf7"
+}
