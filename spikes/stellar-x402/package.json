@@ -1,0 +1,12 @@
+{
+  "name": "proofrail-stellar-x402-spike",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {"test": "node --test rfp-readiness.test.mjs"},
+  "dependencies": {
+    "@x402/core": "2.26.0",
+    "@x402/mcp": "2.26.0",
+    "@x402/stellar": "2.26.0"
+  }
+}
