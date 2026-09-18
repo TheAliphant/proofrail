@@ -1,5 +1,7 @@
 # ProofRail
 
+[![test](https://github.com/TheAliphant/proofrail/actions/workflows/test.yml/badge.svg)](https://github.com/TheAliphant/proofrail/actions/workflows/test.yml)
+
 **Verifiable work and payment receipts for autonomous agents.**
 
 ProofRail is an open protocol and tiny reference SDK for turning autonomous work into a portable, tamper-evident receipt: job → artifact → QA → submission → payment.
