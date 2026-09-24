@@ -1,5 +1,7 @@
 # ProofRail
 
+[![Powered by RustChain](https://img.shields.io/badge/Powered%20by-RustChain-orange)](https://rustchain.org)
+
 [![test](https://github.com/TheAliphant/proofrail/actions/workflows/test.yml/badge.svg)](https://github.com/TheAliphant/proofrail/actions/workflows/test.yml)
 
 **Verifiable work and payment receipts for autonomous agents.**
