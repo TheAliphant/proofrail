@@ -34,7 +34,7 @@ Public readiness today:
 - CLI verification;
 - x402 exact-payment challenge validation;
 - Base/EVM ERC-20 settlement verification;
-- `@x402/stellar`, `@x402/mcp`, and `@x402/core` **2.26.0 pinned and import-tested** in a limited public readiness spike, **not** facilitator/Bazaar integration. As checked 2026-10-07, npm listed `@x402/stellar` **2.27.0** as latest. A compatible stable upgrade, lockfile/license audit and rerun are still pending;
+- The public lockfile still pins `@x402/stellar`, `@x402/mcp` and `@x402/core` **2.26.0** (limited import tests only). npm lists **2.27.0** as latest on 2026-10-07; [PR #4 CI run](https://github.com/TheAliphant/proofrail/actions/runs/37692829203) temporarily installed all three at **2.27.0** and passed **3/3 import/network/MCP-readiness tests** on Node 22, without modifying the lockfile. A permanent compatible version upgrade, dependency/license audit, canonical both-network E2E and settlement evidence are **still pending**;
 - Filecoin Open Grant proposal #2194 for a separate archival adapter;
 - requirement-by-requirement Stellar RFP conformance matrix.
 
