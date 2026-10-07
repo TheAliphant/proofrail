@@ -28,3 +28,37 @@ jobs:
           cache-dependency-path: spikes/stellar-x402/package-lock.json
       - run: npm ci
       - run: npm test
+
+  # Additive, PR-only 2.27.0 import gate; preserve the pinned 2.26.0 baseline above.
+  stellar-x402-227-smoke:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: spikes/stellar-x402
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: spikes/stellar-x402/package-lock.json
+      - name: Install pinned baseline
+        run: npm ci
+      - name: Overlay aligned x402 2.27.0 for smoke test (no lockfile change)
+        run: npm install --no-save --package-lock=false --ignore-scripts @x402/core@2.27.0 @x402/mcp@2.27.0 @x402/stellar@2.27.0
+      - name: Check actually installed package versions
+        run: |
+          node --input-type=module <<'NODE'
+          import assert from 'node:assert/strict';
+          import { readFileSync } from 'node:fs';
+          for (const name of ['core', 'mcp', 'stellar']) {
+            const pkg = JSON.parse(readFileSync(`node_modules/@x402/${name}/package.json`, 'utf8'));
+            assert.equal(pkg.version, '2.27.0', `${name} version mismatch`);
+            console.log(`@x402/${name}: ${pkg.version}`);
+          }
+          NODE
+      - name: Run non-settling official SDK import/readiness checks
+        run: npm test
+      - name: Ensure pinned 2.26 manifest and lock remain unchanged
+        run: git diff --exit-code -- package.json package-lock.json
