@@ -12,7 +12,7 @@ ProofRail is an open protocol and tiny reference SDK for turning autonomous work
 AI agents can increasingly discover work, produce artifacts and transact. What is still fragmented is the evidence trail. Buyers, marketplaces and worker agents need a neutral way to answer: *what was requested, what was delivered, did QA pass, and was payment actually settled?*
 
 ## Status
-Public MVP v0.2. The chain-agnostic receipt core, x402 challenge validation and Base/EVM settlement verification are implemented and tested. A Filecoin Open Grant proposal is under review, and the Stellar track targets the active SCF x402 Facilitator + Bazaar RFP.
+Public MVP v0.2. The chain-agnostic receipt core, x402 challenge validation and Base/EVM settlement verification are implemented and tested. The [Filecoin Open Grant proposal #2194](https://github.com/filecoin-project/devgrants/issues/2194) was closed on 18 November 2026 without a confirmed award; the sponsor redirected funding requests to ProPGF. The [Filecoin R&D program](https://www.filpgf.io/rnd/) announced new RFPs on 20 November, including a potentially relevant agent delegation and receipt track (RFP 3). This is a potential opportunity, not an approved project or a claim of existing UCAN/Filecoin Pay support. The [SCF #46 submission window](https://communityfund.stellar.org/awards/recxrSMYwAl8vcglg) closed on 9 November 2026; no Stellar funding award is claimed.
 
 - Live docs: https://thealiphant.github.io/proofrail/
 - Filecoin Open Grant #2194: https://github.com/filecoin-project/devgrants/issues/2194
